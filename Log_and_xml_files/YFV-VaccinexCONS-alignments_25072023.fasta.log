@@ -1,0 +1,282 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    MSI (AVX2, FMA3, 7 GB RAM)
+Command: iqtree -s YFV-VaccinexCONS-alignments_25072023.fasta -m GTR+R4+F -bb 1000
+Seed:    157762 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Sep  1 14:17:39 2023
+Kernel:  AVX+FMA - 1 threads (12 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 12 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file YFV-VaccinexCONS-alignments_25072023.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 39 sequences with 10235 columns, 96 distinct patterns
+61 parsimony-informative, 47 singleton sites, 10127 constant sites
+WARNING: Some sequence names are changed as follows:
+MN708488|FRA|2019-2-7|STAMARIL -> MN708488_FRA_2019-2-7_STAMARIL
+MN708497|BEL|2019-2-7|STAMARIL -> MN708497_BEL_2019-2-7_STAMARIL
+OP796361|RUS|UNK|17DD -> OP796361_RUS_UNK_17DD
+MN708496|BEL|2019-2-7|STAMARIL -> MN708496_BEL_2019-2-7_STAMARIL
+MN708495|BEL|2019-2-7|STAMARIL -> MN708495_BEL_2019-2-7_STAMARIL
+MN708494|BEL|2019-2-7|STAMARIL -> MN708494_BEL_2019-2-7_STAMARIL
+MN708493|BEL|2019-2-7|STAMARIL -> MN708493_BEL_2019-2-7_STAMARIL
+MN708491|BEL|2019-2-7|STAMARIL -> MN708491_BEL_2019-2-7_STAMARIL
+MN708490|BEL|2019-2-7|STAMARIL -> MN708490_BEL_2019-2-7_STAMARIL
+MN708489|BEL|2019-2-7|STAMARIL -> MN708489_BEL_2019-2-7_STAMARIL
+MG051217|UNK|UNK|Stamaril -> MG051217_UNK_UNK_Stamaril
+GQ379162|PER|2007-10|17DD|AE -> GQ379162_PER_2007-10_17DD_AE
+MT840700|UNK|UNK|UNK -> MT840700_UNK_UNK_UNK
+OM938990|FRA|2019|YF_VAX -> OM938990_FRA_2019_YF_VAX
+OM938989|FRA|2018|YF_VAX -> OM938989_FRA_2018_YF_VAX
+OK573009|USA|UNK|UNK -> OK573009_USA_UNK_UNK
+MN737509|BRA|2019-11-21|17DD -> MN737509_BRA_2019-11-21_17DD
+MW158363|USA|1966|17DD|AE -> MW158363_USA_1966_17DD_AE
+MW158362|ECU|1997-7|17DD|AE -> MW158362_ECU_1997-7_17DD_AE
+MW158360|PER|2011-3|17DD|AE -> MW158360_PER_2011-3_17DD_AE
+MW158358|PER|2004|17DD|AE -> MW158358_PER_2004_17DD_AE
+MW249080|FRA|2019-2-7|STAMARIL -> MW249080_FRA_2019-2-7_STAMARIL
+MW249076|FRA|2019-2-7|STAMARIL -> MW249076_FRA_2019-2-7_STAMARIL
+MW249075|FRA|2019-2-7|STAMARIL -> MW249075_FRA_2019-2-7_STAMARIL
+MN106241|UNK|UNK|STAMARIL -> MN106241_UNK_UNK_STAMARIL
+JX949181|USA|2012-7-3|UNK -> JX949181_USA_2012-7-3_UNK
+KF769015|UNK|UNK|YF_VAX -> KF769015_UNK_UNK_YF_VAX
+JX503529|UNK|UNK|YF_VAX -> JX503529_UNK_UNK_YF_VAX
+AF052446|UNK|UNK|17D-204-SA -> AF052446_UNK_UNK_17D-204-SA
+AF052445|UNK|UNK|17D-204-SA -> AF052445_UNK_UNK_17D-204-SA
+AF052444|UNK|UNK|17D-204-SA -> AF052444_UNK_UNK_17D-204-SA
+AF052439|UNK|UNK|YF_VAX -> AF052439_UNK_UNK_YF_VAX
+AF052438|UNK|UNK|YF_VAX -> AF052438_UNK_UNK_YF_VAX
+AF052437|UNK|UNK|YF_VAX -> AF052437_UNK_UNK_YF_VAX
+DQ100292|BRA|UNK|17DD -> DQ100292_BRA_UNK_17DD
+DQ118157|ESP|2004|STAMARIL|AE -> DQ118157_ESP_2004_STAMARIL_AE
+X15062|UNK|UNK|UNK -> X15062_UNK_UNK_UNK
+FJ654700|CHN|UNK|17D-TIANTAN -> FJ654700_CHN_UNK_17D-TIANTAN
+
+                                                      Gap/Ambiguity  Composition  p-value
+   1  MN708488_FRA_2019-2-7_STAMARIL                          0.01%    passed    100.00%
+   2  Consensus_YFV_64148_consensus_threshold_0_quality_20   38.09%    passed     45.23%
+   3  MN708497_BEL_2019-2-7_STAMARIL                          0.00%    passed    100.00%
+   4  OP796361_RUS_UNK_17DD                                   0.00%    passed     99.81%
+   5  MN708496_BEL_2019-2-7_STAMARIL                          0.00%    passed    100.00%
+   6  MN708495_BEL_2019-2-7_STAMARIL                          0.00%    passed    100.00%
+   7  MN708494_BEL_2019-2-7_STAMARIL                          0.00%    passed    100.00%
+   8  MN708493_BEL_2019-2-7_STAMARIL                          0.00%    passed    100.00%
+   9  MN708491_BEL_2019-2-7_STAMARIL                          0.00%    passed    100.00%
+  10  MN708490_BEL_2019-2-7_STAMARIL                          0.00%    passed    100.00%
+  11  MN708489_BEL_2019-2-7_STAMARIL                          0.01%    passed     99.99%
+  12  MG051217_UNK_UNK_Stamaril                               0.00%    passed    100.00%
+  13  GQ379162_PER_2007-10_17DD_AE                            0.02%    passed     99.99%
+  14  MT840700_UNK_UNK_UNK                                    0.00%    passed    100.00%
+  15  OM938990_FRA_2019_YF_VAX                                0.00%    passed     99.99%
+  16  OM938989_FRA_2018_YF_VAX                                0.00%    passed     99.98%
+  17  OK573009_USA_UNK_UNK                                    0.00%    passed    100.00%
+  18  MN737509_BRA_2019-11-21_17DD                            0.02%    passed     99.99%
+  19  MW158363_USA_1966_17DD_AE                               0.00%    passed    100.00%
+  20  MW158362_ECU_1997-7_17DD_AE                             0.00%    passed     99.94%
+  21  MW158360_PER_2011-3_17DD_AE                             0.00%    passed    100.00%
+  22  MW158358_PER_2004_17DD_AE                               0.00%    passed    100.00%
+  23  MW249080_FRA_2019-2-7_STAMARIL                          0.00%    passed    100.00%
+  24  MW249076_FRA_2019-2-7_STAMARIL                          0.00%    passed    100.00%
+  25  MW249075_FRA_2019-2-7_STAMARIL                          0.00%    passed    100.00%
+  26  MN106241_UNK_UNK_STAMARIL                               0.00%    passed    100.00%
+  27  JX949181_USA_2012-7-3_UNK                               0.00%    passed    100.00%
+  28  KF769015_UNK_UNK_YF_VAX                                 0.00%    passed    100.00%
+  29  JX503529_UNK_UNK_YF_VAX                                 0.00%    passed    100.00%
+  30  AF052446_UNK_UNK_17D-204-SA                             0.00%    passed    100.00%
+  31  AF052445_UNK_UNK_17D-204-SA                             0.00%    passed    100.00%
+  32  AF052444_UNK_UNK_17D-204-SA                             0.00%    passed    100.00%
+  33  AF052439_UNK_UNK_YF_VAX                                 0.00%    passed     99.99%
+  34  AF052438_UNK_UNK_YF_VAX                                 0.00%    passed     99.99%
+  35  AF052437_UNK_UNK_YF_VAX                                 0.00%    passed     99.99%
+  36  DQ100292_BRA_UNK_17DD                                   0.00%    passed     99.90%
+  37  DQ118157_ESP_2004_STAMARIL_AE                           0.00%    passed    100.00%
+  38  X15062_UNK_UNK_UNK                                      0.00%    passed     99.99%
+  39  FJ654700_CHN_UNK_17D-TIANTAN                            0.00%    passed     99.98%
+****  TOTAL                                                   0.98%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: MG051217_UNK_UNK_Stamaril is identical to MN708494_BEL_2019-2-7_STAMARIL but kept for subsequent analysis
+NOTE: OK573009_USA_UNK_UNK is identical to MN708490_BEL_2019-2-7_STAMARIL but kept for subsequent analysis
+NOTE: MN737509_BRA_2019-11-21_17DD is identical to GQ379162_PER_2007-10_17DD_AE but kept for subsequent analysis
+NOTE: JX503529_UNK_UNK_YF_VAX is identical to KF769015_UNK_UNK_YF_VAX but kept for subsequent analysis
+NOTE: 3 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: MW249076_FRA_2019-2-7_STAMARIL (identical to MN708494_BEL_2019-2-7_STAMARIL) is ignored but added at the end
+NOTE: MW249075_FRA_2019-2-7_STAMARIL (identical to MN708490_BEL_2019-2-7_STAMARIL) is ignored but added at the end
+NOTE: MN106241_UNK_UNK_STAMARIL (identical to MN708490_BEL_2019-2-7_STAMARIL) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to YFV-VaccinexCONS-alignments_25072023.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.006 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 157762)...
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -15306.576
+2. Current log-likelihood: -15189.818
+3. Current log-likelihood: -15189.423
+4. Current log-likelihood: -15189.005
+5. Current log-likelihood: -15188.624
+6. Current log-likelihood: -15188.272
+7. Current log-likelihood: -15187.947
+8. Current log-likelihood: -15187.772
+Optimal log-likelihood: -15187.697
+Rate parameters:  A-C: 2.25067  A-G: 9.17403  A-T: 1.02427  C-G: 0.26440  C-T: 19.72480  G-T: 1.00000
+Base frequencies:  A: 0.270  C: 0.211  G: 0.286  T: 0.233
+Site proportion and rates:  (0.260,0.103) (0.255,0.360) (0.251,0.510) (0.234,3.217)
+Parameters optimization took 8 rounds (0.296 sec)
+Computing ML distances based on estimated model parameters... 0.003 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -15187.146
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.096 second
+Computing log-likelihood of 98 initial trees ... 0.185 seconds
+Current best score: -15184.023
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -15182.050
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -15167.759
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -15167.497
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -15167.414
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -15167.337
+Iteration 10 / LogL: -15167.363 / Time: 0h:0m:1s
+BETTER TREE FOUND at iteration 14: -15167.337
+Iteration 20 / LogL: -15167.337 / Time: 0h:0m:2s
+Finish initializing candidate tree set (20)
+Current best tree score: -15167.337 / CPU time: 1.746
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -15167.262
+BETTER TREE FOUND at iteration 28: -15167.257
+Iteration 30 / LogL: -15171.458 / Time: 0h:0m:2s (0h:0m:8s left)
+Iteration 40 / LogL: -15171.452 / Time: 0h:0m:2s (0h:0m:6s left)
+Iteration 50 / LogL: -15167.267 / Time: 0h:0m:3s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -15194.401
+Iteration 60 / LogL: -15167.258 / Time: 0h:0m:3s (0h:0m:4s left)
+BETTER TREE FOUND at iteration 63: -15167.257
+BETTER TREE FOUND at iteration 69: -15167.256
+Iteration 70 / LogL: -15169.534 / Time: 0h:0m:3s (0h:0m:5s left)
+BETTER TREE FOUND at iteration 72: -15167.255
+BETTER TREE FOUND at iteration 75: -15167.255
+Iteration 80 / LogL: -15192.892 / Time: 0h:0m:4s (0h:0m:4s left)
+BETTER TREE FOUND at iteration 84: -15167.248
+BETTER TREE FOUND at iteration 87: -15167.247
+Iteration 90 / LogL: -15167.248 / Time: 0h:0m:4s (0h:0m:4s left)
+BETTER TREE FOUND at iteration 91: -15167.245
+BETTER TREE FOUND at iteration 96: -15167.244
+BETTER TREE FOUND at iteration 97: -15167.236
+Iteration 100 / LogL: -15171.440 / Time: 0h:0m:4s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -15195.364
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.885
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+BETTER TREE FOUND at iteration 105: -15167.234
+Iteration 110 / LogL: -15167.246 / Time: 0h:0m:5s (0h:0m:4s left)
+Iteration 120 / LogL: -15198.239 / Time: 0h:0m:5s (0h:0m:3s left)
+Iteration 130 / LogL: -15167.248 / Time: 0h:0m:5s (0h:0m:3s left)
+BETTER TREE FOUND at iteration 136: -15167.234
+Iteration 140 / LogL: -15192.882 / Time: 0h:0m:6s (0h:0m:4s left)
+BETTER TREE FOUND at iteration 148: -15167.233
+Iteration 150 / LogL: -15167.257 / Time: 0h:0m:6s (0h:0m:4s left)
+Log-likelihood cutoff on original alignment: -15195.292
+Iteration 160 / LogL: -15169.523 / Time: 0h:0m:6s (0h:0m:3s left)
+Iteration 170 / LogL: -15167.242 / Time: 0h:0m:7s (0h:0m:3s left)
+Iteration 180 / LogL: -15167.248 / Time: 0h:0m:7s (0h:0m:2s left)
+BETTER TREE FOUND at iteration 183: -15167.232
+Iteration 190 / LogL: -15167.235 / Time: 0h:0m:7s (0h:0m:3s left)
+BETTER TREE FOUND at iteration 193: -15167.230
+BETTER TREE FOUND at iteration 198: -15167.229
+Iteration 200 / LogL: -15167.230 / Time: 0h:0m:8s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -15195.292
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.969
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -15169.516 / Time: 0h:0m:8s (0h:0m:3s left)
+Iteration 220 / LogL: -15172.589 / Time: 0h:0m:8s (0h:0m:3s left)
+Iteration 230 / LogL: -15169.519 / Time: 0h:0m:9s (0h:0m:2s left)
+BETTER TREE FOUND at iteration 231: -15167.224
+Iteration 240 / LogL: -15170.730 / Time: 0h:0m:9s (0h:0m:3s left)
+BETTER TREE FOUND at iteration 245: -15167.222
+Iteration 250 / LogL: -15169.518 / Time: 0h:0m:9s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -15195.292
+Iteration 260 / LogL: -15169.531 / Time: 0h:0m:10s (0h:0m:3s left)
+Iteration 270 / LogL: -15167.227 / Time: 0h:0m:10s (0h:0m:2s left)
+Iteration 280 / LogL: -15167.239 / Time: 0h:0m:10s (0h:0m:2s left)
+Iteration 290 / LogL: -15195.195 / Time: 0h:0m:10s (0h:0m:2s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 295: -15167.166
+Iteration 300 / LogL: -15167.203 / Time: 0h:0m:11s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -15195.292
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.980
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 310 / LogL: -15167.196 / Time: 0h:0m:11s (0h:0m:3s left)
+Iteration 320 / LogL: -15169.458 / Time: 0h:0m:11s (0h:0m:2s left)
+Iteration 330 / LogL: -15167.190 / Time: 0h:0m:12s (0h:0m:2s left)
+Iteration 340 / LogL: -15167.171 / Time: 0h:0m:12s (0h:0m:2s left)
+Iteration 350 / LogL: -15167.183 / Time: 0h:0m:12s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -15195.292
+Iteration 360 / LogL: -15169.443 / Time: 0h:0m:13s (0h:0m:1s left)
+Iteration 370 / LogL: -15167.166 / Time: 0h:0m:13s (0h:0m:1s left)
+Iteration 380 / LogL: -15167.168 / Time: 0h:0m:13s (0h:0m:0s left)
+Iteration 390 / LogL: -15167.168 / Time: 0h:0m:14s (0h:0m:0s left)
+Iteration 400 / LogL: -15167.172 / Time: 0h:0m:14s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -15195.292
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+TREE SEARCH COMPLETED AFTER 400 ITERATIONS / Time: 0h:0m:14s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -15167.166
+2. Current log-likelihood: -15167.128
+3. Current log-likelihood: -15167.096
+4. Current log-likelihood: -15167.069
+5. Current log-likelihood: -15167.046
+6. Current log-likelihood: -15167.028
+7. Current log-likelihood: -15167.012
+8. Current log-likelihood: -15166.999
+Optimal log-likelihood: -15166.995
+Rate parameters:  A-C: 1.88824  A-G: 9.15067  A-T: 1.01151  C-G: 0.23903  C-T: 19.97522  G-T: 1.00000
+Base frequencies:  A: 0.270  C: 0.211  G: 0.286  T: 0.233
+Site proportion and rates:  (0.362,0.068) (0.315,0.238) (0.290,0.337) (0.033,24.694)
+Parameters optimization took 8 rounds (0.154 sec)
+BEST SCORE FOUND : -15166.995
+Creating bootstrap support values...
+Split supports printed to NEXUS file YFV-VaccinexCONS-alignments_25072023.fasta.splits.nex
+Total tree length: 0.012
+
+Total number of iterations: 400
+CPU time used for tree search: 14.424 sec (0h:0m:14s)
+Wall-clock time used for tree search: 14.456 sec (0h:0m:14s)
+Total CPU time used: 15.040 sec (0h:0m:15s)
+Total wall-clock time used: 15.105 sec (0h:0m:15s)
+
+Computing bootstrap consensus tree...
+Reading input file YFV-VaccinexCONS-alignments_25072023.fasta.splits.nex...
+36 taxa and 496 splits.
+Consensus tree written to YFV-VaccinexCONS-alignments_25072023.fasta.contree
+Reading input trees file YFV-VaccinexCONS-alignments_25072023.fasta.contree
+Log-likelihood of consensus tree: -15167.083
+
+Analysis results written to: 
+  IQ-TREE report:                YFV-VaccinexCONS-alignments_25072023.fasta.iqtree
+  Maximum-likelihood tree:       YFV-VaccinexCONS-alignments_25072023.fasta.treefile
+  Likelihood distances:          YFV-VaccinexCONS-alignments_25072023.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          YFV-VaccinexCONS-alignments_25072023.fasta.splits.nex
+  Consensus tree:                YFV-VaccinexCONS-alignments_25072023.fasta.contree
+  Screen log file:               YFV-VaccinexCONS-alignments_25072023.fasta.log
+
+Date and Time: Fri Sep  1 14:17:54 2023
